@@ -43,7 +43,7 @@ public class EmployeeDAOTest {
 	
 	@Test
 	public void insertEmployeeFailTest() {
-		String empName = "Sou"; 
+		String empName = "Soumya"; 
 		assertEquals(false, dao.insertEmployee(empName));
 	}
 	 
@@ -52,10 +52,6 @@ public class EmployeeDAOTest {
 	public void getEmployeeTest() {
 		// String expected ="Hi " + empName; 
 	}
-	
-	
-	
-	
 	
 	public void test2() {
 		System.out.println("Test2");
