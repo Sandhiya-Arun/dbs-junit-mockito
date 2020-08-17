@@ -1,0 +1,6 @@
+package com.dbs.bascis;
+
+// CRUD 
+public class EmloyeeDAO {
+
+}

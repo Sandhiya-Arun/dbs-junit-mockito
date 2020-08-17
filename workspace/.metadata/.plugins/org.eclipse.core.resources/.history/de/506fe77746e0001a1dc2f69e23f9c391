@@ -1,0 +1,14 @@
+package com.dbs.bascis;
+
+import java.util.Map;
+
+// CRUD 
+public class EmloyeeDAO {
+	
+	Map<String, String> employees; 
+	
+	
+	public boolean insertEmployee(String empName) {
+		// simulate now to insert the record 
+	}
+}

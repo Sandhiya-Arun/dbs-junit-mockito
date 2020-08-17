@@ -1,0 +1,12 @@
+package com.dbs.bascis;
+
+public class EmployeeDAOImpl {
+	public static void main(String[] args) {
+		
+		EmployeeDAO dao = new EmployeeDAO(); 
+		
+		
+		
+		
+	}
+}

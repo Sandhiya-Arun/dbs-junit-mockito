@@ -1,0 +1,52 @@
+package com.dbs.basics.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.dbs.bascis.EmployeeDAO;
+
+public class EmployeeDAOTest {
+
+	public void setUp() {
+		
+	}
+	
+	
+	@Test
+	public void insertEmployeePassTest() {
+		EmployeeDAO dao = new EmployeeDAO(); 
+		
+		String empName = "Soumya"; 
+		assertEquals(true, dao.insertEmployee(empName));
+	}
+	
+	@Test
+	public void insertEmployeeFailTest() {
+		EmployeeDAO dao = new EmployeeDAO(); 
+		
+		String empName = "Sou"; 
+		assertEquals(false, dao.insertEmployee(empName));
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@Test
+	public void getEmployeeTest() {
+		// String expected ="Hi " + empName; 
+	}
+	
+	
+	
+	
+	
+	public void test2() {
+		System.out.println("Test2");
+	}
+}

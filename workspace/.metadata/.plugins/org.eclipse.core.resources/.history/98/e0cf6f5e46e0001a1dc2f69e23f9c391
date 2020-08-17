@@ -1,0 +1,11 @@
+package com.dbs.bascis;
+
+// CRUD 
+public class EmloyeeDAO {
+	
+	
+	
+	public boolean insertEmployee(String empName) {
+		// simulate now to insert the record 
+	}
+}

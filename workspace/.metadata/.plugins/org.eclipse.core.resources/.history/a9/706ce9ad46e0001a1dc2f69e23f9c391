@@ -1,0 +1,20 @@
+package com.dbs.bascis;
+
+import java.util.HashMap;
+import java.util.Map;
+
+// CRUD 
+public class EmloyeeDAO {
+	
+	static Map<String, String> employees; 
+	
+	static {
+		employees = new HashMap<String, String>(); 
+	}
+	
+	public boolean insertEmployee(String empName) {
+		// simulate now to insert the record 
+		employees.put(empName, empName); 
+		return true; 
+	}
+}

@@ -1,0 +1,26 @@
+package com.dbs.basics.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class EmployeeDAOTest {
+
+	@Test
+	public void test1() {
+		
+	}
+	
+	@Test
+	public void test3() {
+		
+	}
+	
+	
+	
+	
+	
+	public void test2() {
+		System.out.println("Test2");
+	}
+}

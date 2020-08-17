@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EmployeeDAOTest" project="junit-mockito-works" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.dbs.basics.test.EmployeeDAOTest" time="0.0">
+    <testcase name="getEmployeeTest" classname="com.dbs.basics.test.EmployeeDAOTest" time="0.0"/>
+    <testcase name="insertEmployeeFailTest" classname="com.dbs.basics.test.EmployeeDAOTest" time="0.0"/>
+    <testcase name="insertEmployeePassTest" classname="com.dbs.basics.test.EmployeeDAOTest" time="0.0"/>
+  </testsuite>
+</testrun>
